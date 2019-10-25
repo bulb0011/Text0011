@@ -8,7 +8,15 @@ Page({
     textname:'textname2',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    nav: ["1", "2", "3"],
+    dataList: [
+      { id: 1, name: 'title1' },
+      { id: 2, name: 'title2' },
+      { id: 3, name: 'title3' },
+      { id: 4, name: 'title431232133333333333aaa2zsssas' },
+      { id: 5, name: 'title5' },
+    ]
   },
   //事件处理函数
   bindViewTap: function() {
