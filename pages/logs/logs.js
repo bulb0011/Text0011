@@ -5,7 +5,8 @@ const util = require('../../utils/util.js')
 
 Page({
   data: {
-    logs: []
+    logs: [],
+    textlog:[]
   },
   onLoad: function () {
     this.setData({
